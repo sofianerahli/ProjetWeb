@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 <title>Projet WEB</title>
@@ -10,31 +10,21 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 <script
 src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="styles.css">
-<script type="text/javascript">
-$(document).ready(function(){
-$('.header').height($(window).height());
-});
-</script>
 </head>
 <body>
 <nav class="navbar navbar-expand-md">
-<a class="navbar-brand" href="#">Accueil</a>
+<a class="navbar-brand" href="index1.php">Accueil</a>
 <button class="navbar-toggler navbar-dark" type="button" datatoggle="collapse" data-target="#main-navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="main-navigation">
 <ul class="navbar-nav">
-<li class="nav-item"><a class="nav-link"
-href="#">catégories</a></li>
-<li class="nav-item"><a class="nav-link" href="#">Ventes flash</a></li>
-<li class="nav-item"><a class="nav-link"
-href="#">Vendre</a></li>
-<li class="nav-item"><a class="nav-link"
-href="#">Votre Compte</a></li>
-<li class="nav-item"><a class="nav-link"
-href="#">Panier</a></li>
-<li class="nav-item"><a class="nav-link"
-href="#">Admin</a></li>
+<li class="nav-item"><a class="nav-link" href="Categories.php">Catégories</a></li>
+<li class="nav-item"><a class="nav-link" href="VenteFlash.php">Ventes flash</a></li>
+<li class="nav-item"><a class="nav-link" href="Vendre.php">Vendre</a></li>
+<li class="nav-item"><a class="nav-link" href="Votrecompte.php">Votre Compte</a></li>
+<li class="nav-item"><a class="nav-link" href="Panier.php">Panier</a></li>
+<li class="nav-item"><a class="nav-link" href="admin.php">Admin</a></li>
 </ul>
 </ul>
 </div>
