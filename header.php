@@ -1,4 +1,3 @@
-
 <html>
 <head>
 <title>Projet WEB</title>
@@ -23,7 +22,7 @@ src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></s
 <li class="nav-item"><a class="nav-link" href="VenteFlash.php">Ventes flash</a></li>
 <li class="nav-item"><a class="nav-link" href="Vendre.php">Vendre</a></li>
 <li class="nav-item"><a class="nav-link" href="Votrecompte.php">Votre Compte</a></li>
-<li class="nav-item"><a class="nav-link" href="Panier.php">Panier</a></li>
+<li class="nav-item"><a class="nav-link" href="Panier.php"><img src="panier.jpg" alt="Musique" width="50" height="50" align="center" /></a></li>
 <li class="nav-item"><a class="nav-link" href="admin.php">Admin</a></li>
 </ul>
 </ul>

@@ -61,3 +61,15 @@ top: 0px;
 background-color: rgba(0, 0, 0, 0.4);
 
 }
+#loisirs { 
+position:absolute; bottom:0px; left:0px; 
+}
+#vetements { 
+position:absolute; bottom:600px; left:400px; 
+}
+#musique { 
+position:absolute; bottom:550px; left:350px; 
+}
+#sport { 
+position:absolute; bottom:500px; left:300px; 
+}
