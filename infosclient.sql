@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  Dim 05 mai 2019 à 18:47
+-- Généré le :  Dim 05 mai 2019 à 18:48
 -- Version du serveur :  5.7.23
 -- Version de PHP :  7.2.10
 
@@ -25,25 +25,28 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `vendeur`
+-- Structure de la table `infosclient`
 --
 
-DROP TABLE IF EXISTS `vendeur`;
-CREATE TABLE IF NOT EXISTS `vendeur` (
+DROP TABLE IF EXISTS `infosclient`;
+CREATE TABLE IF NOT EXISTS `infosclient` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
-  `email` varchar(255) NOT NULL,
-  `pseudo` varchar(255) NOT NULL,
-  `nom` varchar(255) NOT NULL,
+  `Nom_Prenom` varchar(255) NOT NULL,
+  `Adresse_1` varchar(255) NOT NULL,
+  `Adresse_2` varchar(255) NOT NULL,
+  `Ville` varchar(255) NOT NULL,
+  `Code` int(5) NOT NULL,
+  `Pays` varchar(255) NOT NULL,
+  `Tel` int(11) NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
 
 --
--- Déchargement des données de la table `vendeur`
+-- Déchargement des données de la table `infosclient`
 --
 
-INSERT INTO `vendeur` (`Id`, `email`, `pseudo`, `nom`) VALUES
-(16, 'sofiane@hotmail.com', 'Sofiane', 'Rahli'),
-(18, 'zakaria@hotmail.com', 'Zak', 'Zakaria');
+INSERT INTO `infosclient` (`Id`, `Nom_Prenom`, `Adresse_1`, `Adresse_2`, `Ville`, `Code`, `Pays`, `Tel`) VALUES
+(10, 'Sofiane Rahli', '21,23 Rue de la Marche', 'et du Pantin', 'Paris', 75000, 'France', 625352531);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

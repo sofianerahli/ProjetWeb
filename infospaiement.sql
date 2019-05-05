@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  Dim 05 mai 2019 à 18:47
+-- Généré le :  Dim 05 mai 2019 à 18:48
 -- Version du serveur :  5.7.23
 -- Version de PHP :  7.2.10
 
@@ -25,25 +25,26 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `vendeur`
+-- Structure de la table `infospaiement`
 --
 
-DROP TABLE IF EXISTS `vendeur`;
-CREATE TABLE IF NOT EXISTS `vendeur` (
+DROP TABLE IF EXISTS `infospaiement`;
+CREATE TABLE IF NOT EXISTS `infospaiement` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
-  `email` varchar(255) NOT NULL,
-  `pseudo` varchar(255) NOT NULL,
-  `nom` varchar(255) NOT NULL,
+  `Type` varchar(255) NOT NULL,
+  `num` double NOT NULL,
+  `Nom_Prenom` varchar(255) NOT NULL,
+  `Date_exp` date NOT NULL,
+  `Codesec` int(4) NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 --
--- Déchargement des données de la table `vendeur`
+-- Déchargement des données de la table `infospaiement`
 --
 
-INSERT INTO `vendeur` (`Id`, `email`, `pseudo`, `nom`) VALUES
-(16, 'sofiane@hotmail.com', 'Sofiane', 'Rahli'),
-(18, 'zakaria@hotmail.com', 'Zak', 'Zakaria');
+INSERT INTO `infospaiement` (`Id`, `Type`, `num`, `Nom_Prenom`, `Date_exp`, `Codesec`) VALUES
+(1, 'Visa', 1.111111111111111e15, 'MOUTAI', '2019-05-06', 111);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
