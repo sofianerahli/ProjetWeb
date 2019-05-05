@@ -6,13 +6,13 @@
 
 .navbar {
 
-background:#6ab446;
+background:#7FFFD4;
 
 }
 
 .nav-link, .navbar-brand {
 
-color: #fff;
+color: black;
 
 cursor: pointer;
 
@@ -61,15 +61,30 @@ top: 0px;
 background-color: rgba(0, 0, 0, 0.4);
 
 }
-#loisirs { 
-position:absolute; bottom:0px; left:0px; 
+.livres { 
+position:absolute; 
+top:35%; 
+left:10%; 
 }
-#vetements { 
-position:absolute; bottom:600px; left:400px; 
+.vetements { 
+position:absolute; 
+top:85%; 
+left:10%; 
 }
-#musique { 
-position:absolute; bottom:550px; left:350px; 
+.musique { 
+position:absolute; 
+top:85%; 
+right:10%; 
 }
-#sport { 
-position:absolute; bottom:500px; left:300px; 
+.sport { 
+position:absolute; 
+top:35%; 
+right: 10%; 
+}
+.footer-copyright{
+background-color: black;
+color: white;
+clear: both;
+text-align: center;
+padding: 10px;
 }

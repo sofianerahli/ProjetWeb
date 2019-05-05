@@ -1,3 +1,4 @@
+
 <html>
 <head>
 <title>Projet WEB</title>
@@ -17,12 +18,12 @@ src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></s
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="main-navigation">
-<ul class="navbar-nav">
+<ul class="navbar-nav"><a class="nav-link" href="index1.php"><img src="ece1.png" width="150" height="100" align="center" /><img src="amazon.png" width="150" height="100" align="center" /></a></li>
 <li class="nav-item"><a class="nav-link" href="Categories.php">Catégories</a></li>
-<li class="nav-item"><a class="nav-link" href="VenteFlash.php">Ventes flash</a></li>
+<li class="nav-item"><a class="nav-link" href="Ventesflash.php">Ventes flash</a></li>
 <li class="nav-item"><a class="nav-link" href="Vendre.php">Vendre</a></li>
-<li class="nav-item"><a class="nav-link" href="Votrecompte.php">Votre Compte</a></li>
-<li class="nav-item"><a class="nav-link" href="Panier.php"><img src="panier.jpg" alt="Musique" width="50" height="50" align="center" /></a></li>
+<li class="nav-item"><a class="nav-link" href="CompteClient.php">Votre Compte</a></li>
+<li class="nav-item"><a class="nav-link" href="ajoutPanier.php"><img src="panier.jpg" width="50" height="50" align="center" /></a></li>
 <li class="nav-item"><a class="nav-link" href="admin.php">Admin</a></li>
 </ul>
 </ul>
